@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Cheatsheets</title>
+    <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header>
+        <h1>Web Dev Cheatsheets</h1>
+        <nav>
+            <ul class="refs">
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#html tables">HTML Tables</a></li>
+                <li><a href="#table tags">Table Tags</a></li>
+                <li><a href="#table attributes">Table Attributes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <h2 id="html">HTML</h2>
+        <h3 id="html tables">HTML Tables</h3>
+        
+        <div id="table tags">
+            <h4>Table Tags</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="tag">Tag</th>
+                        <th class="name">Name</th>
+                        <th class="description">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;table&gt;</code></td>
+                        <td>Table</td>
+                        <td>The <code>&lt;table&gt;</code> HTML element represents tabular data in a two-dimensional table comprised of rows and columns of cells containing data.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;thead&gt;</code></td>
+                        <td>Table Head</td>
+                        <td>The <code>&lt;thead&gt;</code> HTML element groups together a set of table rows (<code>&lt;tr&gt;</code> elements) that make up the table's header. Generally, containing columns headers (<code>&lt;th&gt;</code> elements) that provide information about the table's columns.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;tbody&gt;</code></td>
+                        <td>Table Body</td>
+                        <td>The <code>&lt;tbody&gt;</code> HTML element contains a group of table rows (<code>&lt;tr&gt;</code> elements), representing the main data section of a table.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;tr&gt;</code></td>
+                        <td>Table Row</td>
+                        <td>The <code>&lt;tr&gt;</code> HTML element specifies a row within a table. And this row can contain a combination of <code>&lt;td&gt;</code> (data cell) and <code>&lt;th&gt;</code> (header cell) elements to defines its individual cells.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;td&gt;</code></td>
+                        <td>Table Data</td>
+                        <td>The <code>&lt;td&gt;</code> HTML element specifies a data-containing cell within a table and can be used as a child of the <code>&lt;tr&gt;</code> element.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;tfoot&gt;</code></td>
+                        <td>Table Foot</td>
+                        <td>The <code>&lt;tfoot&gt;</code> HTML element contains a set of <code>&lt;tr&gt;</code> elements, signifying that they make up the footer of a table with details about the table's columns. This section typically provides a summary, such as the total of the numbers in a columns.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="table attributes">
+            <h4>Table Attributes</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="attribute">Attribute</th>
+                        <th class="name">Name</th>
+                        <th class="description">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="colspan">colspan</td>
+                        <td>Column Span</td>
+                        <td>Specifies the number of columns a <code>&lt;td&gt;</code> element should span.</td>
+                    </tr>
+                    <tr>
+                        <td class="rowspan">rowspan</td>
+                        <td>Row Span</td>
+                        <td>Specifies the number of rows a <code>&lt;td&gt;</code> element should span.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    
+</body>
+
+</html>
