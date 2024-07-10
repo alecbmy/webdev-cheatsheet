@@ -1,10 +1,13 @@
 * {
     box-sizing: border-box;
+}
+
+body {
     background-color: #afeeee;
 }
 
 h1 {
-    font-family: "Covered By Your Grace", monospace, sans-serif;
+    font-family: "Covered By Your Grace", sans-serif, monospace;
     font-weight: 900;
     font-size: 100px;
     text-align: center;
@@ -46,8 +49,7 @@ table {
     margin-top: 10px;
     border-collapse: collapse;
     width: 800px;
-    position: relative;
-    left: 200px;
+    margin: 0 auto; /* Center table */
     letter-spacing: 1px;
 }
 
