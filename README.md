@@ -1,7 +1,5 @@
 Web Dev Cheatsheets
 
-Please visit my [GitHub repo](https://github.com/alecbmy/WebDev-Cheatsheets) to check out the cheatsheet. Any feedback is appreciated! 
-
 Overview
 
 Welcome to the Web Dev Cheatsheets repository! This project is a comprehensive reference cheat sheet for HTML and CSS. It's designed to help web developers quickly find and reference HTML tags, table elements, and attributes. More content will be added to these cheat sheets in the future to cover a wider range of topics and provide an even more valuable resource.
