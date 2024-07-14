@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #afeeee;
+}
+
+h1 {
+    font-family: "Covered By Your Grace", sans-serif, monospace;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    color: #5f9ea0;
+}
+
+.refs li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #008b8b;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #6b8e23;
+    background-color: #87ceeb;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    color: #48d1cc;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #6495ed;
+    text-align: center;
+}
+
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 auto; /* Center table */
+    letter-spacing: 1px;
+}
+
+.tag, .attribute {
+    width: 90px;
+    font-weight: 600;
+    font-size: 18px;
+    color:#8a2be2;
+    background-color: #adff2f;
+}
+
+.name {
+    width: 145px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #8a2be2;
+    background-color:#adff2f;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 18px;
+    color:#8a2be2;
+    background-color: #adff2f;
+}
+
+code {
+    font-family: monospace;
+    font-weight: 400;
+    color: #da70d6;
+}
+
+.colspan, .rowspan {
+    font-family: monospace;
+    font-weight: 400;
+    color: #da70d6;
+    
+}
+
+th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #708090;
+    border: 1px solid #000;
+    padding: 8px;
+}
