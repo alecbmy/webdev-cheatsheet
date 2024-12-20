@@ -1,4 +1,4 @@
-Web Dev Cheatsheets
+Web Dev Cheatsheet
 
 Overview
 
@@ -14,4 +14,4 @@ Future Updates: More content and additional cheat sheets will be added to cover 
 
 Usage
 
-To use these cheat sheets, simply clone this repository and open the index.html file in your web browser. You can navigate through the different sections using the provided navigation links.
+To use these cheat sheet, simply clone this repository and open the index.html file in your web browser. You can navigate through the different sections using the provided navigation links.
