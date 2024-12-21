@@ -19,6 +19,8 @@ h1 {
     font-weight: 400;
     font-size: 18px;
     color: #008b8b;
+    word-spacing: 1px;
+    display: flex;
 }
 
 h2 {
